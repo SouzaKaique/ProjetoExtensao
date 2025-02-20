@@ -1,6 +1,7 @@
 # 🚀 Projeto de Extensão - Instituto Zimbauê
 
 Este projeto foi desenvolvido como parte de um projeto de extensão para o Instituto Zimbauê 🎉.
+
 O objetivo é criar um site institucional que ajude a promover as atividades culturais, educativas e sociais realizadas pelo Instituto. Com esse site, buscamos aumentar a visibilidade das ações do Instituto e conectar ainda mais pessoas à sua história e impacto.
 
 
@@ -34,7 +35,7 @@ Modal Interativo: Galeria de fotos com visualização ampliada das imagens 🖼.
 
 ## 🏁 Como Rodar o Projeto?
 
-1. Copie e cole a seguinte url: 
+1. Copie e cole a seguinte url: https://projeto-extensao-beige.vercel.app/
 
 *Pronto! Agora você já pode explorar o projeto.* 🎉
 
