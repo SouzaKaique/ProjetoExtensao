@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instituto Zimbauê</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="assets/IMG/home.png" />
+</head>
+
+<body>
+
+  <!-- Cabeçalho e Menu -->
+  <header class="fundo-claro">
+    <div class="logo">
+      <a href="index.html">
+        <img src="assets/IMG/home.png" alt="Logo Zimbauê">
+      </a>
+    </div>
+    <nav class="menu">
+      <ul>
+        <li><a href="#section-home" class="texto-escuro">História</a></li>
+        <li><a href="#galeria" class="texto-escuro">Galeria</a></li>
+        <li><a href="#card-container" class="texto-escuro">Saiba Mais</a></li>
+        <li><a href="#projetos" class="texto-escuro">Projetos</a></li>
+        <li><a href="#contato" class="texto-escuro">Contato</a></li>
+        <li id="li-btn">
+          <div class="form-check form-switch">
+            <input class="form-check-input"  type="checkbox" role="switch" id="flexSwitchCheckDefault">
+            <label class="form-check-label" for="flexSwitchCheckDefault" id="botao-modo">Modo Claro</label>
+          </div>
+        </li>
+      </ul>
+
+    </nav>
+
+  </header>
+
+  <!--Seção Carrossel-->
+
+  <section id="carousel">
+    <div class="carousel-container">
+      <div class="carousel-slide active">
+        <img src="assets/IMG/fundo1.png" alt="Imagem 1">
+      </div>
+      <div class="carousel-slide">
+        <img src="assets/IMG/inst4.jpg" alt="Imagem 2">
+      </div>
+      <div class="carousel-slide">
+        <img src="assets/IMG/inst2.jpg" alt="Imagem 3">
+      </div>
+      <div class="carousel-slide">
+        <img src="assets/IMG/inst1.jpg" alt="Imagem 3">
+      </div>
+      <div class="carousel-slide">
+        <img src="assets/IMG/inst5.jpg" alt="Imagem 3">
+      </div>
+      <div class="carousel-slide">
+        <img src="assets/IMG/teatro2.jpg" alt="Imagem 3">
+      </div>
+    </div>
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </section>
+
+  <!-- Seção Home -->
+  <section id="section-home" class="section-home fundo-claro">
+    <h2 class="texto-escuro" id="titulo-home">NOSSA HISTÓRIA</h2>
+    <div class="home-content">
+      <div class="home-text">
+        <p class="texto-escuro">Em 15 de maio, há exatos 135 anos, mais de 700.000 homens e mulheres negros, oriundos da África e seus descendentes, foram oficialmente libertados da escravidão — um regime desumano e coercitivo que os obrigava ao trabalho sem qualquer direito de escolha e que perdurou por aproximadamente 400 anos. Embora livres, essas pessoas encontraram-se completamente excluídas da sociedade.</p>
+        <p class="texto-escuro">Nos últimos vinte anos, o Instituto tem trabalhado intensamente na promoção e defesa de bens e direitos sociais, coletivos e difusos, com foco na preservação do patrimônio cultural, moral e material da população afrodescendente. Por meio de atividades culturais e educativas, o Instituto busca fomentar uma reflexão profunda sobre o racismo e as estratégias para seu combate, além de contribuir para a reconstrução da identidade étnica, fortalecimento da autoestima e promoção da cidadania entre afrodescendentes.</p>
+      </div>
+      <div class="home-image">
+        <img src="assets/IMG/pessoas.png" alt="Grupo de homenageados">
+      </div>
+    </div>
+  </section>
+
+  <!-- Galeria de Fotos -->
+  <section id="galeria" class="section-galeria">
+    <h2>GALERIA DE FOTOS</h2>
+     <a href="galeria.html" class="botao-galeria">Acesse aqui a galeria completa</a>
+    <div class="galeria-container">
+      <img src="assets/IMG/inst3.jpg" alt="Foto 1">
+      <img src="assets/IMG/teatro3.jpg" alt="Foto 2">
+      <img src="assets/IMG/inst5.jpg" alt="Foto 3">
+      
+    </div>
+  </section>
+
+  <!--Seção Saiba Mais-->
+  <section class="card-container fundo-claro" id="card-container">
+    <div class="card borda-laranja box-cinza">
+      <img src="assets/IMG/ia3.jpg" alt="Imagem 2">
+      <h3 class="texto-escuro">Instituto Zimbauê e as Escolas</h3>
+      <p class="texto-escuro">
+        O Instituto realizou, de 18 a 21 de novembro, atividades em escolas sobre a Consciência Negra, abordando temas de identidade e combate ao racismo
+      </p>
+      <a href="https://www.assiscity.com/local/instituto-do-negro-zimbaue-e-as-escolas-38566.html" class="cta botao-saiba" target="_blank">Leia mais</a>
+    </div>
+
+    <div class="card borda-azul box-cinza">
+      <img src="assets/IMG/zimbaue-fema.png" alt="Imagem 1">
+      <h3 class="texto-escuro">XIV Festival da Consciência Negra</h3>
+      <p class="texto-escuro">
+        Evento celebra 20 anos do Instituto Zimbauê e traz novo formato para comemorar o Mês da Consciência Negra em Assis em parceria com a FEMA
+      </p>
+      <a href="https://www.fema.edu.br/instituto-zimbaue-lanca-14o-festival-da-consciencia-negra-em-parceria-com-a-fema/" target="_blank" class="cta botao-saiba">Leia mais</a>
+    </div>
+
+    <div class="card borda-verde box-cinza">
+      <img src="assets/IMG/principal2.png" alt="Imagem 3">
+      <h3 class="texto-escuro">Entrega do Prêmio Estudantil</h3>
+      <p class="texto-escuro">
+        Realizado no dia 26, a premiação do 4º Concurso da Consciência Negra, nas categorias "poema" e "produção de vídeo"
+      </p>
+      <a href="https://www.assiscity.com/local/instituto-do-negro-zimbaue-e-as-escolas-38566.html" class="cta botao-saiba" target="_blank">Leia mais</a>
+    </div>
+  </section>
+
+  <!--Seção de Projetos-->
+
+  <section id="projetos" class="projetos">
+    <h2 class="titulo-secao">PROJETOS</h2>
+    <div class="projetos-div">
+      <div class="projeto">
+          <a href="premio.html" target="_blank">
+          <img src="assets/IMG/estrela.png" alt="Ícone de estrela" class="icone">
+          </a>
+          <p>Diploma Zumbi dos Palmares</p>
+          <a href="rec.html" target="_blank">
+            <img src="assets/IMG/icone-livro.png" alt="Ícone de livro" class="icone">
+          </a>
+          <p>Recomendações Literárias e Cinema</p>  
+      </div>
+      <div class="projeto">
+        <a href="zumbi.html" target="_blank">
+          <img src="assets/IMG/professor.png
+            " alt="Ícone de quadro" class="icone">
+        </a>
+        <p>Quem foi Zumbi dos Palmares?</p>
+        <a href="https://www.instagram.com/p/CxbhLsevLmM/" target="_blank">
+          <img src="assets/IMG/eventos.png" alt="Ícone de estrada" class="icone">
+        </a>
+        <p>Eventos</p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="contato">
+    <div class="coluna">
+      <h2>INSTITUTO ZIMBAUÊ</h2>
+      <p>Fortalecendo os movimentos que sempre estiveram às margens da sociedade!</p>
+      <img src="assets/IMG/home.png" alt="Logo Instituto Zimbauê" class="logo-footer">
+    </div>
+
+    <div class="coluna">
+      <h3>PROJETOS</h3>
+      <ul>
+        <li>Abre Caminhos</li>
+        <li><a href="rec.html">Clube de leitura</a></li>
+        <li><a href="premio.html">Diploma Zumbi dos Palmares</a></li>
+        <li>Oficinas</li>
+      </ul>
+
+      <h3>EVENTOS</h3>
+      <ul>
+        <li><a href="https://www.instagram.com/p/C-1UTbONDP4/"target="_blank">Revoada</a></li>
+        <li><a href="https://www.instagram.com/p/CxbhLsevLmM/"target="_blank">Quilombo Urbano</a></li>
+      </ul>
+    </div>
+
+    <div class="coluna">
+      <h3>HOMENAGEADOS</h3>
+      <ul>
+        <li><a href="premio.html">Figuras históricas</a></li>
+      </ul>
+    </div>
+
+    <div class="coluna">
+      <h3>SIGA-NOS</h3>
+      <ul class="social">
+        <li>
+          <a href="https://www.instagram.com/institutozimbaue/" target="_blank">
+            <img src="assets/IMG/insta.png" alt="Instagram"> @institutozimbaue
+          </a>
+
+        </li>
+        <li>
+          <a href="https://www.facebook.com/institutozimbaue/?locale=pt_BR" target="_blank">
+            <img src="assets/IMG/face.png" alt="Facebook"> Instituto Zimbauê
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="fundo-claro">
+    <p class="texto-escuro">&copy; 2024 Instituto Zimbauê | Todos os direitos reservados.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
